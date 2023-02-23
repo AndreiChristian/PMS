@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: hsl(215, 15%, 74%);
+  font-family: "Roboto Mono", monospace;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  text-align: center;
+}
+
+:root {
+  --back:rgba(28, 30, 68, 255);
+  --cardDarkPurple: #11142d;
+  --mintish : #68ac8e;
+  --orangeish: #fe5e1e;
+  --yellowish: #f0af02;
+  --blueish: #1779ed;
+  --greyish:hsl(215, 15%, 74%);
+  --darkish:#11142d;
+  
+}

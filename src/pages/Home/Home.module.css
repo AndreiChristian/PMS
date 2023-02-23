@@ -1,0 +1,95 @@
+.container {
+  /* outline: 1px solid pink; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+/* THE STYLING FOR THE HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header .title {
+  color: hsl(234, 45%, 52%);
+  font-size: 3rem;
+  font-family: "Monoton", cursive;
+}
+
+.header .subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pms {
+  font-size: 1.3rem;
+  font-family: "Monoton", cursive;
+  font-weight: lighter;
+}
+.simplified {
+  font-size: 0.9;
+  font-family: "Monoton", cursive;
+  font-weight: lighter;
+}
+
+.bolt {
+  width: 7vw;
+  margin-bottom: 2vh;
+  border-radius: 50%;
+  /* box-shadow: 0 0 1px 1px rgba(104, 156, 156, 0.181),
+    0 0 4px 4px rgba(0, 255, 255, 0.277),
+    inset 0 0 4px 4px rgba(0, 255, 255, 0.277),
+    0 0 7px 7px rgba(0, 0, 255, 0.279), inset 0 0 7px 7px rgba(0, 0, 255, 0.273),
+    0 0 9px 9px rgba(0, 0, 255, 0.159), inset 0 0 9px 9px rgba(0, 0, 255, 0.239);
+  transform: rotate(0deg); */
+}
+
+.content {
+  font-size: 1.5rem;
+  margin: 2vh 0;
+}
+
+/* THE STYLE FOR THE MAIN CONTENT */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.card {
+  box-sizing: border-box;
+  text-align: center;
+  width: 20vw;
+  height: 15vh;
+  padding: 2vh 2vw;
+  margin: 2vh 2vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #11142d;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.345);
+  text-decoration: none;
+}
+
+.card .title {
+  padding-bottom: 0.5vh;
+  margin-bottom: 0.5vh;
+  font-weight: bold;
+  background-color: #11142d;
+}
+
+.card .content {
+  font-size: 0.9rem;
+  background-color: #11142d;
+}

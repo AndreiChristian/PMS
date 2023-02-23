@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4vh;
+    font-size: 1.2rem;
+}
+
+.filter input{
+    margin: 0 1vw;
+    outline: none !important;
+    padding: 1vh 1vw;
+    background-color: var(--cardDarkPurple);
+    border: 2px solid var(--blueish);
+    border-radius: 20px;
+}

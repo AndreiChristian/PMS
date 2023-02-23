@@ -1,0 +1,21 @@
+background-color: #68ac8e;
+
+mint ish color 
+
+color: hsl(234, 45%, 52%);
+brighter shade of purple used for titles
+
+box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.417);
+border-radius: 20px;
+the box shadow and radius for cards and buttons
+
+background-color: #11142d;
+the darker color for the cards
+
+color: #fe5e1e;
+red ish color -- for problems
+
+#1779ed
+shade of blue that works nicely on the background
+
+#f0af02 yellow ish color

@@ -1,0 +1,42 @@
+.card {
+  height: fit-content;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4vh 4vh;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.417);
+  background-color: #11142d;
+  border-radius: 20px;
+  margin: 1vh 1vh;
+  width: 80vw;
+  height: 10vw;
+
+}
+
+.card div{
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.title{
+    align-self: flex-start;
+    color: #1779ed;
+    font-size: 1.5rem;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info .content:nth-child(2){
+    color: #68ac8e;
+}
+
+.info .content:nth-child(3){
+    color: #fe5e1e;
+}

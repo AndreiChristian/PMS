@@ -1,0 +1,53 @@
+.container {
+  width: 90vw;
+  margin-bottom: 10vh;
+  box-sizing: border-box;
+  padding: 5vh 3vw;
+  background-color: var(--cardDarkPurple);
+  border-radius: 20px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.417);
+  font-size: 1.2rem;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2vh;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1vh;
+  border-right: 2px solid hsl(234, 45%, 9%);;
+    padding-right: 2vw;
+}
+
+.info h1{
+    font-size: 1.6rem;
+    color: var(--blueish);
+    align-self: center;
+}
+
+.info > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.info > div > div:nth-child(1) {
+  width: 15vw;
+  text-align: left;
+}
+
+.booking{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-self: stretch;
+  height: 70vh;
+  gap: 2vh;
+}

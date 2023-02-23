@@ -1,0 +1,24 @@
+.root_layout {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: var(--back);
+}
+
+.root_outlet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: var(--back);
+  box-sizing: border-box;
+  overflow-y: visible;
+}

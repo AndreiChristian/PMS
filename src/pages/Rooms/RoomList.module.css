@@ -1,0 +1,138 @@
+.container {
+  width: 95vw;
+  box-sizing: border-box;
+  margin: 4vh 2vw 7vh 2vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.rooms {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: content-box;
+  padding: 0 3vw;
+  font-size: 1.3rem;
+}
+
+.metrics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vh;
+  background-color: #11142d;
+  padding: 2vh 0;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.417);
+}
+
+.metric {
+  margin: 0 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #11142d;
+}
+
+.metric:nth-child(1) div {
+  color: #1779ed;
+}
+
+.metric:nth-child(2) div {
+  color: #68ac8f;
+}
+
+.metric:nth-child(3) div {
+  color: #fe5d1e;
+}
+
+.metric:nth-child(4) div {
+  color: #f0af02;
+}
+
+.metric_title {
+  font-size: 1.5rem;
+  background-color: #11142d;
+}
+
+.metric_title:nth-child(1){
+  font-size: 2rem;
+}
+
+.metric_subtitle {
+  font-size: 0.8rem;
+  background-color: #11142d;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 5vh 0;
+}
+
+.actions div {
+  margin: 0 1.8vw;
+  padding: 2vh 2vw;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.417);
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+
+.actions div:nth-child(1) {
+  box-shadow: none;
+  margin: 0;
+}
+
+.actions div:nth-child(2):hover {
+  background-color: #68ac8f92;
+}
+
+.actions div:nth-child(3):hover {
+  background-color: #fe5d1e90;
+}
+
+.actions div:nth-child(4):hover {
+  background-color: hsla(44, 98%, 67%, 0.725);
+}
+
+.actions div:nth-child(5) {
+  width: 25vw;
+}
+
+.actions div input {
+  height: 3vh;
+  padding: 0 0.5vw;
+  margin-left: 3vh;
+  padding: 0vh 1vw;
+  background-color: #11142d;
+  border-color: #1779ed;
+  border-radius: 20px;
+}
+
+.available_active {
+  background-color: #68ac8f;
+}
+.maintenance_active {
+  background-color: #f0af02;
+}
+
+.occupied_active {
+  background-color: #fe5d1e;
+}

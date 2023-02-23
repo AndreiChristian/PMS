@@ -1,0 +1,16 @@
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin: 5vh 0;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 2vh 2vw;
+    background-color: var(--cardDarkPurple);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.417);
+border-radius: 20px;
+}

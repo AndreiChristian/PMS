@@ -1,0 +1,29 @@
+.container {
+  width: 90vw;
+  background-color: #11142d;
+  /* height: 75vh; */
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.417);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 2vw 2vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text{
+  background-color: inherit;
+  font-size: 1.4rem;
+  margin-bottom: 2vh;
+  
+}
+
+.calendar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: inherit;
+}

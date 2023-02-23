@@ -1,0 +1,12 @@
+.rooms{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: center;
+    gap: 2vh;
+}
+
+.text{
+    font-size: 1.4rem;
+    margin-bottom: 4vh;
+}
